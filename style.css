@@ -1,0 +1,48 @@
+#container {
+    position:fixed; top:10px; left:10px; right:10px; bottom:10px;
+}
+
+.note {
+    position:absolute;
+    width:200px;
+    background-color:beige;
+}
+
+.note textarea {
+    resize:none;
+    background-color:transparent;
+    width:100%; height:80px; margin-top:5px;
+    box-sizing:border-box; padding:5px;
+    border:none; outline:none;
+}
+
+.file {
+    height:30px; margin:4px;
+    box-sizing:border-box; padding:4px;
+    background-color:beige;
+    line-height:22px; font-size:14px;
+    font-family:sans-serif;
+}
+
+.bar {
+    height:15px; background-color:lightsalmon;
+}
+
+.folder {
+    position:absolute;
+    width:250px;
+    border:2px solid lightsalmon; box-sizing:border-box;
+    background-color:rgba(255,255,255,0.85);
+}
+
+.folder_cnt {
+    min-height:40px;
+}
+
+.folder.ui-droppable-hover {
+    border-color:aquamarine;
+}
+
+.folder.ui-droppable-hover .bar {
+    background-color:aquamarine;
+}
